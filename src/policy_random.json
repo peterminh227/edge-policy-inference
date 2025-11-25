@@ -1,0 +1,20 @@
+{
+  "pt_file": "policy_M2.pt",
+  "input_dim": 47,
+  "hidden_dim": 128,
+  "layers": [
+    {
+      "in": 128,
+      "out": 64
+    },
+    {
+      "in": 64,
+      "out": 32
+    },
+    {
+      "in": 32,
+      "out": 12
+    }
+  ],
+  "activation": "elu"
+}
