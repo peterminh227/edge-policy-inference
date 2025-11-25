@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Samurice: Hanoi 29 Oct 2025
 # How to run:
-#   python validate_c_vs_torch.py   --pt ./policy_cpkt/policy_M2.pt   --weights_h ./src/policy_M2_weights.h   --infer_h ./src/policy_infer.h   --trials 10 --steps 20 --init zeros
+#   python validate_c_vs_torch.py   --pt ./policy_cpkt/policy_random.pt   --weights_h ./src/policy_random_weights.h   --infer_h ./src/policy_infer.h   --trials 10 --steps 20 --init zeros
 
 import argparse, ctypes, numpy as np, torch, os, subprocess, tempfile, textwrap, sys, pathlib
 

@@ -6,7 +6,7 @@
 
 
 #ifndef WEIGHTS_HEADER
-#define WEIGHTS_HEADER "policy_M2_weights.h"
+#define WEIGHTS_HEADER "policy_random_weights.h"
 #endif
 #include WEIGHTS_HEADER
 

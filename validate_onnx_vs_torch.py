@@ -5,8 +5,8 @@ import onnxruntime as ort
 
 from src.export_policy_to_onnx import PolicyONNX  
 
-PT_PATH   = "policy_cpkt/policy_M2.pt"
-ONNX_PATH = "src/policy_M2.onnx"
+PT_PATH   = "policy_cpkt/policy_random.pt"
+ONNX_PATH = "src/policy_random.onnx"
 
 # Load TS
 policy_ts = torch.jit.load(PT_PATH, map_location="cpu").eval()

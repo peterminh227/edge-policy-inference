@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#define WEIGHTS_HEADER "policy_M2_weights.h" 
+#define WEIGHTS_HEADER "policy_random_weights.h" 
 #include "src/policy_infer.h"
 
 int main(){

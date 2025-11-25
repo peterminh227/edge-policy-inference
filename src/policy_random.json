@@ -1,5 +1,5 @@
 {
-  "pt_file": "policy_M2.pt",
+  "pt_file": "policy_random.pt",
   "input_dim": 47,
   "hidden_dim": 128,
   "layers": [

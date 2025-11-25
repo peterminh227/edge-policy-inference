@@ -3,8 +3,8 @@ import numpy as np
 import ctypes
 import onnxruntime as ort
 
-ONNX_PATH = "./src/policy_M2.onnx"
-SO_PATH   = "./src/libpolicy_m2.so"
+ONNX_PATH = "./src/policy_random.onnx"
+SO_PATH   = "./src/libpolicy_random.so"
 
 # Load C library
 lib = ctypes.cdll.LoadLibrary(SO_PATH)

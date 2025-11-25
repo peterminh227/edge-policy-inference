@@ -2,7 +2,7 @@
 # Author: Samurice, Vinrobotics JSC
 # Date: 30 October 2025
 # How to export:
-#   python export_policy_weights.py ../policy_cpkt/policy_M2.pt --out-prefix=policy_M2 --activation=elu
+#   python export_policy_weights.py ../policy_cpkt/policy_random.pt --out-prefix=policy_random --activation=elu
 #!/usr/bin/env python3
 import argparse, json, re, os
 import torch, numpy as np, sys

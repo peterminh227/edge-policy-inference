@@ -2,8 +2,8 @@
 // Build as a shared library to be called from Python via ctypes.
 // How to use:
 // Ubuntu/Linux to buyld shared lib:
-// gcc -O3 -std=c99 -fPIC -shared     policy_shim.c -lm -o libpolicy_m2.so
-#define WEIGHTS_HEADER "policy_M2_weights.h"
+// gcc -O3 -std=c99 -fPIC -shared     policy_shim.c -lm -o libpolicy_random.so
+#define WEIGHTS_HEADER "policy_random_weights.h"
 #include "policy_infer.h"
 
 // Exported symbols must be visible from the shared lib

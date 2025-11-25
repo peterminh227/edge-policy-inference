@@ -1,7 +1,7 @@
 # Samurice: Hanoi 29 Oct 2025
 # QnD version of validator for VR-robot-control recurrent policys
 #!/usr/bin/env python3
-# How to use:  python validate_QnD_vs_torch.py ./policy_cpkt/policy_M2.pt --trials 10 --steps 10 --init zeros
+# How to use:  python validate_QnD_vs_torch.py ./policy_cpkt/policy_random.pt --trials 10 --steps 10 --init zeros
 
 import argparse, numpy as np, torch
 

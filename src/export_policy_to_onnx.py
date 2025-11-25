@@ -3,7 +3,7 @@
 # Author: Samurice, Vinrobotics JSC
 # Date: 9 Nov 2025
 # How to export:
-#   python export_policy_to_onnx.py --ts ../policy_cpkt/policy_M2.pt --out policy_M2.onnx
+#   python export_policy_to_onnx.py --ts ../policy_cpkt/policy_random.pt --out policy_random.onnx
 import argparse
 import torch
 import torch.nn as nn
@@ -72,8 +72,8 @@ class PolicyONNX(nn.Module):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--ts",  default="policy_M2.pt")
-    parser.add_argument("--out", default="policy_M2.onnx")
+    parser.add_argument("--ts",  default="policy_random.pt")
+    parser.add_argument("--out", default="policy_random.onnx")
     parser.add_argument("--opset", type=int, default=17)
     args = parser.parse_args()
 
