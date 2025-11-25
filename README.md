@@ -1,4 +1,4 @@
-# Model Inference Utilities (Quick and Dirty ver)
+# Model Inference Utilities (QnD version)
 
 A lightweight C implementation for neural network policy inference with validation and benchmarking tools against PyTorch models.
 
